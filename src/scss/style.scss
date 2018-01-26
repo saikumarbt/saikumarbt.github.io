@@ -1,10 +1,14 @@
 $primary:#156fb9;
 
-.bg-dark{
-    background: #000;
-    color:#fff;
+.dark-overlay{
+    background: rgb(105, 105, 105);
 }
 
+.bg-dark{
+    background: #000;
+    background-size:cover;
+    color:#fff;
+}
 
 .skillset{
     background:$primary;
@@ -33,6 +37,11 @@ $primary:#156fb9;
     }
 }
 
+.alignRight {
+    position: absolute;
+    right: 20px;
+}
+
 @media(min-width:1199px){
 .port-item{
     padding:3em !important;
@@ -46,3 +55,4 @@ $primary:#156fb9;
         }
     }
 }
+

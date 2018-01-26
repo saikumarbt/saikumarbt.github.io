@@ -1,5 +1,9 @@
+.dark-overlay {
+  background: dimgray; }
+
 .bg-dark {
   background: #000;
+  background-size: cover;
   color: #fff; }
 
 .skillset {
@@ -20,6 +24,10 @@
 #main-header .port-item:hover {
   opacity: 0.8;
   cursor: pointer; }
+
+.alignRight {
+  position: absolute;
+  right: 20px; }
 
 @media (min-width: 1199px) {
   .port-item {
